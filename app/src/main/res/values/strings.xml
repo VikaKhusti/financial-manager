@@ -3,4 +3,5 @@
     <string name="financial_manager">Financial Manager</string>
     <string name="account_balance">Account Balance</string>
     <string name="amout_remainin">This is the amout remaining in your account</string>
+    <string name="change">Change</string>
 </resources>
