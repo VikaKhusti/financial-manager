@@ -48,16 +48,16 @@
 
     <Button
         android:id="@+id/changeButton"
-        android:layout_width="90dp"
-        android:layout_height="31dp"
+        android:layout_width="62dp"
+        android:layout_height="24dp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="12dp"
         android:background="@color/colorPrimary"
+        android:onClick="changeBalance"
         android:shadowColor="@color/primary_text"
-        android:text="@string/change"
+        android:text="@string/info"
         android:textColor="@color/primary_text"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewBalanceSubtitl"
-        android:onClick="changeBalance"/>
+        app:layout_constraintTop_toBottomOf="@+id/textViewBalanceSubtitl" />
 </androidx.constraintlayout.widget.ConstraintLayout>

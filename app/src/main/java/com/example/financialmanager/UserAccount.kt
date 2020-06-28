@@ -1,6 +1,21 @@
 package com.example.financialmanager
 
+import android.content.SharedPreferences
+
 class UserAccount {
 
-    var BALANCE: String? = "75"
+    var balance: Int = 0
+
+    var income: Int  = 0
+
+    constructor(balance: Int, income: Int) {
+        this.balance = balance
+        this.income = income
+    }
+
+
+
+
+
+
 }
